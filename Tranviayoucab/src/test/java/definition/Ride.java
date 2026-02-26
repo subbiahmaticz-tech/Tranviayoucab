@@ -5,7 +5,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
-public class ride {
+public class Ride {
 
 	public static void main(String[] args) {
 		
@@ -56,8 +56,10 @@ public class ride {
 		WebElement requirment = driver.findElement(By.id("extraRequirement"));
 		requirment.sendKeys("AC");
 		//submitbtn
-		WebElement submit = driver.findElement(By.xpath("//button[text() = 'Submit']"));
-		submit.click();
+		WebElement submitbtn = driver.findElement(By.xpath("//button[text() = 'Submit']"));
+		submitbtn.click();
+		
+		
 
 	}
 
