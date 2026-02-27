@@ -56,8 +56,8 @@ public class Ride {
 		WebElement requirment = driver.findElement(By.id("extraRequirement"));
 		requirment.sendKeys("AC");
 		//submitbtn
-		WebElement submitbtn = driver.findElement(By.xpath("//button[text() = 'Submit']"));
-		submitbtn.click();
+		WebElement submit = driver.findElement(By.xpath("//button[text() = 'Submit']"));
+		submit.click();
 		
 		
 
